@@ -1,0 +1,22 @@
+{
+    "autoload": {
+        "psr-4": {
+            "ksrnnb\\MyPackage\\": "src/MyPackage/"
+        }
+    },
+    "name": "ksrnnb/my-package",
+    "description": "learn how to use package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ksrnnb",
+            "email": "enrico.fermi.phys@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
