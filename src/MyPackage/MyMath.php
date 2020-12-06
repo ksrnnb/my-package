@@ -38,6 +38,17 @@ class MyMath
     }
 
     /**
+     * 乗算
+     * @param int $a
+     * @param int $b
+     * @return int
+     */
+    public function power(int $a, int $b): int
+    {
+        return $a ** $b;
+    }
+
+    /**
      * 割り算する
      * @param int $a
      * @param int $b
