@@ -41,6 +41,14 @@ class MyMathTest extends TestCase
     }
 
     /**
+     * 乗算のテスト
+     */
+    public function testPower(): void
+    {
+        $this->assertEquals(4 ** 2, $this->obj->power(4, 2));
+    }
+
+    /**
      * わり算のテストをする
      */
     public function testDiv(): void
